@@ -207,11 +207,13 @@ body {
 h1 {
 	font-weight: bold;
 	margin-bottom: 25px;
+	
 }
 
 p {
 	margin-top: 5px;
 	margin-bottom: 15px;
+	max-width: 600px
 }
 input-email{
 	padding: 10px;
@@ -227,14 +229,19 @@ label {
 	html{
 		line-height: 1.182em;
 		padding: 1.182em;
+		
 	}
 	body{
 		font-family:  Garamond, ‘Hoefler Text’, ‘Times New Roman’, serif;
 		background-color:  #9a9ca0;
+		margin-color: white;
   }
 	h1{
 		font-weight: bold;
 		margin-bottom: 25px;
+		font-size: 35px;
+		
+		
 	}
 	input-email{
 		padding: 10px;
@@ -242,6 +249,7 @@ label {
 	p{
     margin-top: 5px;
 		margin-bottom: 15px;
+		
 	}
 	li{
     margin-bottom: 10px;
