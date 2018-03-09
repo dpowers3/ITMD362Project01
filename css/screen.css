@@ -207,7 +207,8 @@ img, audio, video {
 	body {
 		font-family: Verdana, Geneva, sans-serif;
 		padding: 20px;
-		background-color: lightgreen;	
+		background-color:#1F5673;
+		
 	}
 
 	h1 {
@@ -219,7 +220,8 @@ img, audio, video {
 	p {
 		margin-top: 5px;
 		margin-bottom: 15px;
-		max-width: 600px
+		max-width: 600px;
+		font-size: 15px;
 	}
 	
 	input-email{
@@ -259,6 +261,7 @@ img, audio, video {
 	
 	label {
 		display: block;
+		font-size: 19px;
 	}
 	
 	button{
@@ -360,27 +363,31 @@ img, audio, video {
 	html{
 		line-height: 1.182em;
 		padding: 1.182em;
-		
+		height:100%;
+		background: linear-gradient(to bottom right,  #3498DB, grey);
 	}
 	body{
 		font-family: Arial, Helvetica, sans-serif;
-		background-color:  #3498DB;
+		height:100%;
 		
   }
 	h1{
 		font-weight: bold;
 		margin-bottom: 25px;
-		font-size: 35px;
+		font-size: 40px;
+		text-align: center;
 	}
 
 	p{
 		margin-top: 5px;
 		margin-bottom: 15px;
 		padding: 10px;
+		font-size: 20px;
 	}
 	li{
 		margin-bottom: 10px;
 		padding: 10px;
+		
 	}
 	button{
 		background-color: #4CAF50; 
