@@ -191,6 +191,10 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
+/*
+	CSS For Mobile Screen
+*/
+
 @media screen and (max-width: 480px){
 
 	html {
@@ -209,6 +213,7 @@ img, audio, video {
 	h1 {
 		font-weight: bold;
 		margin-bottom: 25px;
+		font-size: 30px;
 	}
 
 	p {
@@ -239,23 +244,19 @@ img, audio, video {
 	}
 	.MonthContainer label{
 		
-		
 	}
-	/*
+	
 	.NewsletterContainer {
 		padding-top: 10px;
 		padding-bottom: 10px;
-		font-size: 20px;
+		font-size: 18px;
+		display:block;
 			
 	}
 	.NewsletterContainer label{
-		position: absolute;
-		width: 25px;
-		height: 25px;
-		top: 0;
-		left: 10px;
+		
 	}
-	*/
+	
 	label {
 		display: block;
 	}
@@ -277,7 +278,85 @@ img, audio, video {
 		display: none;		
 	}
 }
-@media screen and (min-width: 480px){
+/*
+	CSS For Tablet Screen
+*/
+@media (min-width: 480px) and (max-width: 1220px) {
+	html{
+		line-height: 1.182em;
+		padding: 1.182em;
+		
+	}
+	body{
+		font-family: Arial, Helvetica, sans-serif;
+		background-color:  grey;
+	}
+	h1{
+		font-weight: bold;
+		margin-bottom: 25px;
+		font-size: 35px;
+		text-align: center;
+	}
+
+	p{
+		margin-top: 5px;
+		margin-bottom: 15px;
+		
+	}
+	li{
+		margin-bottom: 10px;
+	}
+	button{
+		background-color: #4CAF50; 
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		padding: 12px 28px;		
+	}
+	
+	input[type="checkbox" i]{
+		float:left;
+		margin-top: 2px;
+		margin-right: 10px;
+	}
+	.MonthContainer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 18px;
+		display:block;
+			
+	}
+	.MonthContainer label{
+		
+	}
+	
+	.NewsletterContainer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 18px;
+		display:block;
+			
+	}
+	.NewsletterContainer label{
+		
+	}
+	img#book {
+		height : 300px;
+		width: 50%;
+		float : right;
+	}
+}
+
+/*
+	CSS For Desktop Screen
+*/
+
+@media screen and (min-width: 1200px){
 	html{
 		line-height: 1.182em;
 		padding: 1.182em;
@@ -295,26 +374,56 @@ img, audio, video {
 	}
 
 	p{
-    margin-top: 5px;
+		margin-top: 5px;
 		margin-bottom: 15px;
+		padding: 10px;
 	}
 	li{
-    margin-bottom: 10px;
+		margin-bottom: 10px;
+		padding: 10px;
 	}
 	button{
 		background-color: #4CAF50; 
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
 		padding: 12px 28px;		
 	}
-	img {
-		height : 200 px;
-		width: 25%;
+	input[type="checkbox" i]{
+		float:left;
+		margin-top: 2px;
+		margin-right: 10px;
+	}
+	.MonthContainer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 18px;
+		display:block;
+			
+	}
+	.MonthContainer label{
+		
+	}
+	
+	.NewsletterContainer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 18px;
+		display:block;
+			
+	}
+	.NewsletterContainer label{
+		
+	}
+	img#book {
+		height : 30%;
+		width: 30%;
+		float : right;
+		padding-right: 100px; 
 	}
 }
