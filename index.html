@@ -5,10 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel="stylesheet" media="screen" href="css/screen.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/site.js"></script>
   </head>
   <body>
     <main id="content"> 
-    <form method="get" action="#null">
+    <form method="get" action="#null" autocomplete="on">
       <h1 id="h1" >LiteracyRead </h1>
       <p>Welcome to LiteracyRead Book Club.</p>
       <img id="book" src="./images/books.jpg" alt="Books">
@@ -27,16 +29,24 @@
           <input type="email" name="email" id="email" pattern="^.+@.+$" />
         </li>
       </ol>
-      <label class ="container"> I want to join Book of The Month
-        <input type="checkbox">
-      </label>
-      <label class ="container"> I want to join Local Events Newsletter
-        <input type="checkbox">
-      </label>
+	  
+      <div class ="MonthContainer">
+		<input type="checkbox" id="MonthContainerInput">
+		<label for "MonthContainerInput">I want to join Book of The Month</label>
+		</div>
+		
+	   <!--<div class="NewsletterContainer">
+			<input type="checkbox" id="NewsletterContainerInput">
+			<label for "NewsletterContainer"> I want to join Local Events Newsletter</label>
+		</div>
+		-->
+			
+			
       <button id="button">Sign Me Up</button>
+	  
+	  
     </form>
     </main>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="js/site.js"></script>
+      
   </body>
 </html>
