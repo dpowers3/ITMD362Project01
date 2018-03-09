@@ -9,8 +9,8 @@
 		<script src="./js/site.js"></script>
 	</head>
 	<body>
-		<main id="content"> 
-		<form name="myForm" method="post" action="#null" autocomplete="on" onsubmit="return validateForm()">
+		<main id="content">
+		<form name="myForm" method="post" action="#null" autocomplete="on" onsubmit="return checkForm()">
 		<h1 id="h1" >LiteracyRead </h1>
 		<p>Welcome to LiteracyRead Book Club.</p>
 			<img id="book" src="./images/books.jpg" alt="Books">
@@ -18,7 +18,7 @@
 		<ol>
 			<li id="fname">
 				<label for="first-name"> First Name</label>
-				<input type="text" id="first-name"/>		
+				<input type="text" name="first-name"/>		
 			</li>
 			<li id="lname">
 				<label for="last-name"> Last Name</label>
@@ -41,7 +41,8 @@
 				<label for="NewsletterContainerInput"> I want to join Local Events Newsletter</label>
 			</div>
 		</section>
-		<button id="button">Sign Me Up</button>
+		<button id="button" value="register">Sign Me Up</button>
+		<p id="demo"></p>
 	</form>
 	</main>
 </body>
