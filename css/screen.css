@@ -203,35 +203,28 @@ img, audio, video {
 		padding: 1.182em; /* 26px / ~ 120% */
 		text-rendering: optimizeLegibility;
 	}
-
 	body {
 		font-family: Verdana, Geneva, sans-serif;
 		padding: 20px;
-		background-color:#1F5673;
-		
+		background-color:#1F5673;	
 	}
-
 	h1 {
 		font-weight: bold;
 		margin-bottom: 25px;
 		font-size: 30px;
 	}
-
 	p {
 		margin-top: 5px;
 		margin-bottom: 15px;
 		max-width: 600px;
 		font-size: 15px;
 	}
-	
 	input-email{
 		padding: 10px;
 	}
-	
 	li{
 		margin-bottom: 10px;	
 	}
-	
 	input[type="checkbox" i]{
 		float:left;
 		margin-top: 7px;
@@ -242,28 +235,23 @@ img, audio, video {
 		padding-bottom: 10px;
 		font-size: 18px;
 		display:block;
-			
 	}
 	.MonthContainer label{
 		
 	}
-	
 	.NewsletterContainer {
 		padding-top: 10px;
 		padding-bottom: 10px;
 		font-size: 18px;
 		display:block;
-			
 	}
 	.NewsletterContainer label{
 		
 	}
-	
 	label {
 		display: block;
 		font-size: 19px;
 	}
-	
 	button{
 		background-color: #4CAF50; 
 		border: none;
@@ -276,7 +264,6 @@ img, audio, video {
 		cursor: pointer;
 		padding: 12px 28px;		
 	}
-	
 	img#book{
 		display: none;		
 	}
@@ -288,7 +275,6 @@ img, audio, video {
 	html{
 		line-height: 1.182em;
 		padding: 1.182em;
-		
 	}
 	body{
 		font-family: Arial, Helvetica, sans-serif;
@@ -300,11 +286,9 @@ img, audio, video {
 		font-size: 35px;
 		text-align: center;
 	}
-
 	p{
 		margin-top: 5px;
-		margin-bottom: 15px;
-		
+		margin-bottom: 15px;	
 	}
 	li{
 		margin-bottom: 10px;
@@ -320,8 +304,7 @@ img, audio, video {
 		margin: 4px 2px;
 		cursor: pointer;
 		padding: 12px 28px;		
-	}
-	
+	}	
 	input[type="checkbox" i]{
 		float:left;
 		margin-top: 2px;
@@ -331,19 +314,16 @@ img, audio, video {
 		padding-top: 10px;
 		padding-bottom: 10px;
 		font-size: 18px;
-		display:block;
-			
+		display:block;		
 	}
 	.MonthContainer label{
 		
 	}
-	
 	.NewsletterContainer {
 		padding-top: 10px;
 		padding-bottom: 10px;
 		font-size: 18px;
-		display:block;
-			
+		display:block;		
 	}
 	.NewsletterContainer label{
 		
@@ -369,15 +349,13 @@ img, audio, video {
 	body{
 		font-family: Arial, Helvetica, sans-serif;
 		height:100%;
-		
-  }
+	}
 	h1{
 		font-weight: bold;
 		margin-bottom: 25px;
 		font-size: 40px;
 		text-align: center;
 	}
-
 	p{
 		margin-top: 5px;
 		margin-bottom: 15px;
@@ -387,7 +365,6 @@ img, audio, video {
 	li{
 		margin-bottom: 10px;
 		padding: 10px;
-		
 	}
 	button{
 		background-color: #4CAF50; 
@@ -406,29 +383,24 @@ img, audio, video {
 		margin-top: 2px;
 		margin-right: 10px;
 	}
-	
 	.MonthContainer {
 		padding-top: 10px;
 		padding-bottom: 10px;
 		font-size: 18px;
 		display:block;
-			
 	}
 	.MonthContainer label{
 		
 	}
-	
 	.NewsletterContainer {
 		padding-top: 10px;
 		padding-bottom: 10px;
 		font-size: 18px;
-		display:block;
-			
+		display:block;		
 	}
 	.NewsletterContainer label{
 		
 	}
-	
 	img#book {
 		height : 30%;
 		width: 30%;
