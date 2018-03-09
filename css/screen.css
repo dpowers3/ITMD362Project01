@@ -191,55 +191,92 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
-html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 1.182em; /* 26px / ~ 120% */
-  text-rendering: optimizeLegibility;
-}
+@media screen and (max-width: 480px){
 
-body {
-	font-family: Verdana, Geneva, sans-serif;
-	padding: 20px;
-	background-color: #3498DB;	
-}
+	html {
+		font-size: 1.375em; /* 22px */
+		line-height: 1.182em; /* 26px / ~ 120% */
+		padding: 1.182em; /* 26px / ~ 120% */
+		text-rendering: optimizeLegibility;
+	}
 
-h1 {
-	font-weight: bold;
-	margin-bottom: 25px;
+	body {
+		font-family: Verdana, Geneva, sans-serif;
+		padding: 20px;
+		background-color: lightgreen;	
+	}
+
+	h1 {
+		font-weight: bold;
+		margin-bottom: 25px;
+	}
+
+	p {
+		margin-top: 5px;
+		margin-bottom: 15px;
+		max-width: 600px
+	}
 	
-}
-
-p {
-	margin-top: 5px;
-	margin-bottom: 15px;
-	max-width: 600px
-}
-input-email{
-	padding: 10px;
-}
-li{
-	margin-bottom: 10px;	
-}
-
-.container{
-	padding : 10px;
-}
-label {
-  display: block;
-}
-button{
+	input-email{
+		padding: 10px;
+	}
+	
+	li{
+		margin-bottom: 10px;	
+	}
+	
+	input[type="checkbox" i]{
+		float:left;
+		margin-top: 7px;
+		margin-right: 10px;
+	}
+	.MonthContainer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 18px;
+		display:block;
+			
+	}
+	.MonthContainer label{
+		
+		
+	}
+	/*
+	.NewsletterContainer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 20px;
+			
+	}
+	.NewsletterContainer label{
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		top: 0;
+		left: 10px;
+	}
+	*/
+	label {
+		display: block;
+	}
+	
+	button{
 		background-color: #4CAF50; 
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
 		padding: 12px 28px;		
 	}
+	
+	img#book{
+		display: none;		
+	}
+}
 @media screen and (min-width: 480px){
 	html{
 		line-height: 1.182em;
@@ -247,7 +284,7 @@ button{
 		
 	}
 	body{
-		font-family: Verdana, Geneva, sans-serif;
+		font-family: Arial, Helvetica, sans-serif;
 		background-color:  #3498DB;
 		
   }
